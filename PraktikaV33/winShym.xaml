@@ -1,0 +1,19 @@
+﻿<Window x:Class="PraktikaV33.winShym"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="winShym" Height="450" Width="800">
+    <Grid Background="SandyBrown" >
+        <TextBlock Margin="268,11,-57,352" Text="Ошибка квантования" FontSize="22" FontWeight="Bold"/>
+
+        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,311,83,37" Text="Ошибкой квантований называют отклонение квантованного сигнала от аналогового, т.е. разница между входным значением X и квантованным значением X' (X-X')
+
+Большие ошибки квантования приводят к сильным искажениям аудиосигнала (шум квантования).
+
+Чем выше разрядность, тем незначительнее ошибки квантования и тем лучше отношение сигнал/шум (Signal-to-noise ratio, SNR), и наоборот: при низкой разрядности вырастает шум.Разрядность также определяет динамический диапазон сигнала, то есть соотношение максимального и минимального значений. С каждым битом динамический диапазон вырастает примерно на 6dB (Децибел) (6dB это в 2 раза; то есть координатная сетка становиться плотнее, возрастает градация)." TextAlignment="Justify" TextWrapping="Wrap" BorderBrush="SandyBrown"/>
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\shym.png" Margin="10,66,22,144"/>
+    </Grid>
+</Window>

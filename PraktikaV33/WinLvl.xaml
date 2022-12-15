@@ -1,0 +1,15 @@
+﻿<Window x:Class="PraktikaV33.WinLvl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="WinLvl" Height="450" Width="800">
+    <Grid Background="SandyBrown" >
+        <TextBlock Margin="268,11,-57,352" Text="Оцифровка сигнала" FontSize="22" FontWeight="Bold"/>
+
+        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,271,48,37" Text="Цифровым называется сигнал, к которому применены дискретизация и квантование. Оцифровка происходит в аналого-цифровом преобразователе (АЦП). Чем больше число уровней квантования и чем выше частота дискретизации, тем точнее цифровой сигнал соответствует аналоговому " TextAlignment="Justify" TextWrapping="Wrap" BorderBrush="SandyBrown"/>
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\quantz.png" Margin="122,71,164,163"/>
+    </Grid>
+</Window>

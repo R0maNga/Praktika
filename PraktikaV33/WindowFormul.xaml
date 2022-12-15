@@ -1,0 +1,31 @@
+﻿<Window x:Class="PraktikaV33.WindowFormul"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="WindowFormul" Height="450" Width="800">
+    <Grid Background="SandyBrown" >
+        <TextBlock Margin="132,10,79,353" Text="Аналого-цифровое преобразование сигналов" FontSize="22" FontWeight="Bold"/>
+
+        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="42,271,79,37" Text="Данная формула позволяет вычислить количество уровней квантования:
+
+Если N — количество уровней квантования,
+n — разрядность, то
+N = 2^n
+
+
+
+Обычно используют разрядности в 8, 12, 16 и 24 бит. Несложно вычислить, что при n=24 количество уровней N = 16,777,216.
+
+При n = 1 аудиосигнал превратится в азбуку Морзе: либо есть «стук», либо нету. Существует также разрядность 32 бит с плавающей запятой. Обычный компактный Аудио-CD имеет разрядность 16 бит. Чем ниже разрядность, тем больше округляются значения и тем больше ошибка квантования. " TextAlignment="Justify" TextWrapping="Wrap" BorderBrush="SandyBrown" TextChanged="TextBox_TextChanged"/>
+
+
+
+
+
+
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\formula.png" Margin="134,66,134,167"/>
+    </Grid>
+</Window>

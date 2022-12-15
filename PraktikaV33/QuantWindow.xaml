@@ -1,0 +1,21 @@
+﻿<Window x:Class="PraktikaV33.Quant"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="Quant" Height="428" Width="761">
+    <Grid Background="SandyBrown" >
+        <TextBlock Margin="132,10,79,353" Text="Аналого-цифровое преобразование сигналов" FontSize="22" FontWeight="Bold"/>
+
+        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="23,271,427,37" Text="Дискретизация - представление непрерывного аналогового сигнала последовательностью его значений (отсчетов ). Эти отсчеты берутся в моменты времени, отделенные друг от друга интервалом, который называется интервалом дискретизации. Величину, обратную интервалу между отсчетами, называют частотой дискретизации. На рис. 1 показаны исходный аналоговый сигнал и его дискретизированная версия. Картинки, приведенные под временными диаграммами, получены в предположении, что сигналы являются телевизионными видеосигналами одной строки, одинаковыми для всего телевизионного растра." TextAlignment="Justify" TextWrapping="Wrap" Width="311" BorderBrush="SandyBrown"/>
+        
+       
+            <TextBlock ScrollViewer.CanContentScroll="True" Margin="380,271,55,37" TextAlignment="Justify" TextWrapping="Wrap" Text="На картинке изображен процесс квантования сигнала с помощью одного бита информации, как я описывал выше, когда при превышении определенного предела принимается значение высокого уровня."/>
+       
+
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\discr.jpg" Margin="-12,77,445,150"/>
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\kvant.png" Margin="327,54,33,180"/>
+    </Grid>
+</Window>

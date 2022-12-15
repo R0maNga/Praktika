@@ -1,0 +1,29 @@
+﻿<Window x:Class="PraktikaV33.Test"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="Test" Height="608" Width="899">
+    <Grid Background="SandyBrown" Margin="-58,-51,-163,-47">
+
+        <TextBlock Text="Тест по передачи данных между устройствами" Margin="272,47,34,331" FontSize="22" FontWeight="Bold"/>
+
+        <TextBlock Text="Вопрос" Margin="326,104,246,424" FontSize="22" FontWeight="Bold" TextAlignment="Justify" TextWrapping="Wrap" x:Name="qua"/>
+        <Button Content="Ответ 1" Click="otv1" RenderTransformOrigin="1.727,2.385" Margin="82,227,822,374" x:Name="otvet1">
+
+        </Button>
+        <Button Content="Ответ 2" Click="otv2" RenderTransformOrigin="0.276,0.513" Margin="82,345,822,263" x:Name="otvet2">
+
+        </Button>
+        <Button Content="Ответ 3" Click="otv3" RenderTransformOrigin="0.276,0.513" Margin="82,454,822,163" x:Name="otvet3">
+
+        </Button>
+        <Button Content="Ответ 4" Click="otv4" RenderTransformOrigin="0.276,0.513" Margin="82,561,822,54" x:Name="otvet4">
+
+        </Button>
+
+        <Image  Margin="431,168,114,110" x:Name="Image"/>
+    </Grid>
+</Window>

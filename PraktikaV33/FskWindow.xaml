@@ -1,0 +1,14 @@
+﻿<Window x:Class="PraktikaV33.FskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PraktikaV33"
+        mc:Ignorable="d"
+        Title="FskWindow" Height="450" Width="800">
+    <Grid Background="SandyBrown">
+        
+        <TextBlock Text="Частотно-манипулированные сигналы FSK" Margin="152,29,154,349" FontSize="22" FontWeight="Bold"/>
+        <Image Source="C:\Users\R0maNga\Desktop\TRASH\fsk.jpg" Margin="53,116,69,31"/>
+    </Grid>
+</Window>
