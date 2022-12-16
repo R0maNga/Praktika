@@ -9,7 +9,7 @@
     <Grid Background="SandyBrown" >
         <TextBlock Margin="132,10,79,353" Text="Аналого-цифровое преобразование сигналов" FontSize="22" FontWeight="Bold"/>
 
-        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="42,271,79,37" Text="Данная формула позволяет вычислить количество уровней квантования:
+        <TextBox Background="SandyBrown" IsReadOnly="True" x:Name="Acp" Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="42,271,79,37" Text="Данная формула позволяет вычислить количество уровней квантования:
 
 Если N — количество уровней квантования,
 n — разрядность, то

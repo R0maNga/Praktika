@@ -9,7 +9,7 @@
     <Grid Background="SandyBrown" >
         <TextBlock Margin="268,11,-57,352" Text="Оцифровка сигнала" FontSize="22" FontWeight="Bold"/>
 
-        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,271,48,37" Text="Цифровым называется сигнал, к которому применены дискретизация и квантование. Оцифровка происходит в аналого-цифровом преобразователе (АЦП). Чем больше число уровней квантования и чем выше частота дискретизации, тем точнее цифровой сигнал соответствует аналоговому " TextAlignment="Justify" TextWrapping="Wrap" BorderBrush="SandyBrown"/>
+        <TextBox Background="SandyBrown" IsReadOnly="True" x:Name="cifrovka"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,271,48,37" Text="Цифровым называется сигнал, к которому применены дискретизация и квантование. Оцифровка происходит в аналого-цифровом преобразователе (АЦП). Чем больше число уровней квантования и чем выше частота дискретизации, тем точнее цифровой сигнал соответствует аналоговому " TextAlignment="Justify" TextWrapping="Wrap" BorderBrush="SandyBrown"/>
         <Image Source="C:\Users\R0maNga\Desktop\TRASH\quantz.png" Margin="122,71,164,163"/>
     </Grid>
 </Window>

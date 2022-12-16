@@ -9,7 +9,7 @@
     <Grid Background="SandyBrown" >
         <TextBlock Margin="268,11,-57,352" Text="Ошибка квантования" FontSize="22" FontWeight="Bold"/>
 
-        <TextBox Background="SandyBrown" IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,311,83,37" Text="Ошибкой квантований называют отклонение квантованного сигнала от аналогового, т.е. разница между входным значением X и квантованным значением X' (X-X')
+        <TextBox Background="SandyBrown" x:Name="Oshibka"  IsReadOnly="True"  Padding="5" MinHeight="25" MaxHeight="200" VerticalScrollBarVisibility="Visible"  Margin="43,311,83,37" Text="Ошибкой квантований называют отклонение квантованного сигнала от аналогового, т.е. разница между входным значением X и квантованным значением X' (X-X')
 
 Большие ошибки квантования приводят к сильным искажениям аудиосигнала (шум квантования).
 

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +24,13 @@ namespace PraktikaV33
         public Quant()
         {
             InitializeComponent();
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            var qwe = openFileDialog.InitialDirectory = @"c:\qwe\Discretizacia.txt";
+            var sr = new StreamReader(qwe, Encoding.UTF8);
+            Discret.Text = sr.ReadToEnd();
+            var qwe1 = openFileDialog.InitialDirectory = @"c:\qwe\Quantovanie.txt";
+            var sr1 = new StreamReader(qwe1, Encoding.UTF8);
+            Quantovanie.Text = sr1.ReadToEnd();
         }
     }
 }

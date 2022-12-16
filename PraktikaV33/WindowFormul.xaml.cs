@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +24,10 @@ namespace PraktikaV33
         public WindowFormul()
         {
             InitializeComponent();
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            var qwe = openFileDialog.InitialDirectory = @"c:\qwe\ACP.txt";
+            var sr = new StreamReader(qwe, Encoding.UTF8);
+            Acp.Text = sr.ReadToEnd();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
