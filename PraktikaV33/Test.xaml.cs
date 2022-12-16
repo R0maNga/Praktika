@@ -29,7 +29,7 @@ namespace PraktikaV33
         {
 
             InitializeComponent();
-
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
             quantions();
 
 

@@ -24,6 +24,7 @@ namespace PraktikaV33
         public WindowFormul()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             var qwe = openFileDialog.InitialDirectory = @"c:\qwe\ACP.txt";
             var sr = new StreamReader(qwe, Encoding.UTF8);

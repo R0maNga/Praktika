@@ -24,6 +24,7 @@ namespace PraktikaV33
         public Quant()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             var qwe = openFileDialog.InitialDirectory = @"c:\qwe\Discretizacia.txt";
             var sr = new StreamReader(qwe, Encoding.UTF8);

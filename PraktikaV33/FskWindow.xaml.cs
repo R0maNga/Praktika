@@ -22,6 +22,7 @@ namespace PraktikaV33
         public FskWindow()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
         }
     }
 }

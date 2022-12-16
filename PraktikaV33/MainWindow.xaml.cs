@@ -23,6 +23,7 @@ namespace PraktikaV33
         public MainWindow()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
         }
         public void Click(object sender, RoutedEventArgs e)
         {

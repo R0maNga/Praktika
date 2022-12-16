@@ -24,6 +24,7 @@ namespace PraktikaV33
         public WinLvl()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             var qwe = openFileDialog.InitialDirectory = @"c:\qwe\Ocifrovka.txt";
             var sr = new StreamReader(qwe, Encoding.UTF8);

@@ -24,6 +24,7 @@ namespace PraktikaV33
         public WindowKolvoBit()
         {
             InitializeComponent();
+            this.ResizeMode = System.Windows.ResizeMode.CanMinimize;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             var qwe =openFileDialog.InitialDirectory = @"c:\qwe\Bit.txt";
             var sr = new StreamReader(qwe, Encoding.UTF8);
